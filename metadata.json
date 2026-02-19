@@ -1,0 +1,33 @@
+{
+  "id": "vqe-ansatz",
+  "name": "VQE Hardware-Efficient Ansatz",
+  "category": "optimization",
+  "description": "4-qubit hardware-efficient variational ansatz for VQE (Variational Quantum Eigensolver), 2-layer Ry-Rz-CNOT structure.",
+  "long_description": "The Variational Quantum Eigensolver (VQE) finds the ground-state energy of a Hamiltonian by optimising the parameters of a parameterized quantum circuit (ansatz). This circuit implements a 2-layer hardware-efficient ansatz with Ry + Rz rotations and a linear CNOT entanglement layer. Parameters shown are example values; a classical optimiser (e.g., COBYLA, ADAM) minimises \u27e8\u03c8(\u03b8)|H|\u03c8(\u03b8)\u27e9 with respect to \u03b8.",
+  "difficulty": "advanced",
+  "qubit_count": 4,
+  "clbit_count": 4,
+  "gate_count": 19,
+  "depth": 8,
+  "tags": [
+    "vqe",
+    "variational",
+    "ansatz",
+    "quantum-chemistry",
+    "optimization"
+  ],
+  "circuit_formats": [
+    "qasm2"
+  ],
+  "source_file": "circuit.qasm",
+  "expected_output": "Parameterized state; run classically with VQE optimizer to find ground state",
+  "references": [
+    {
+      "title": "Peruzzo et al. (2014). A Variational Eigenvalue Solver on a Photonic Chip. Nature Communications 5, 4213",
+      "url": "https://doi.org/10.1038/ncomms5213"
+    }
+  ],
+  "author": "OpenQC Community",
+  "license": "MIT",
+  "version": "1.0.0"
+}
