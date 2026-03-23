@@ -1,0 +1,29 @@
+{
+  "slug": "vqe-ansatz",
+  "name": "VQE Hardware-Efficient Ansatz",
+  "version": "1.0.0",
+  "author": "iniestarchen",
+  "license": "Apache-2.0",
+  "description": "4-qubit hardware-efficient variational ansatz for VQE with Ry-Rz-CNOT layers.",
+  "industries": [
+    "chemistry"
+  ],
+  "techniques": [
+    "vqa"
+  ],
+  "difficulty": "intermediate",
+  "computation_model": "gate",
+  "algorithm_type": "circuit",
+  "qubit_count": 4,
+  "tags": [
+    "vqe",
+    "variational",
+    "ansatz",
+    "chemistry"
+  ],
+  "access": "open",
+  "source": "official",
+  "metadata": {
+    "year_introduced": 2014
+  }
+}
